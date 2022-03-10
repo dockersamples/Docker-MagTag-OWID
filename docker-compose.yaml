@@ -1,0 +1,10 @@
+version: "3"
+services:
+  web:
+    build: app
+    ports:
+      - '5000:5000'
+    environment:
+      FLASK_DEBUG: 1
+      PORT: 5000
+    image: shyruparel/flask-owid-parser
