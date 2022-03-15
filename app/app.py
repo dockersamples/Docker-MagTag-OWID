@@ -22,6 +22,7 @@ def iso_data(iso):
         if item["iso_code"]:
             vaccinations_dict[item["iso_code"]] = {
                 "data": item["data"][-1],
+                "iso_code": item["iso_code"].replace("OWID_", " "),
                 "country": item["country"],
             }
     if iso in vaccinations_dict:
