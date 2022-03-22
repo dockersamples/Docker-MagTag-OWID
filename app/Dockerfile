@@ -17,5 +17,3 @@ COPY . /app
 # Spin up our flask server.
 ENTRYPOINT ["python3"]
 CMD ["app.py"]
-
-
