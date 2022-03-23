@@ -79,7 +79,7 @@ Learn More
 
 Check out the full project write up on the [Docker Blog]().
 
-Learn more about getting started with [Docker and Python](https://docs.docker.com/language/python/build-images/)
+Learn more about getting started with [Docker and Python](https://docs.docker.com/language/python/build-images/?utm_campaign=2022-03-25-magtag-owid-python-tutorial&utm_medium=web-referral&utm_source=github&utm_content=python-getting-started-docs)
 
 License
 =======
