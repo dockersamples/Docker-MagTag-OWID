@@ -74,6 +74,8 @@ Attach the MagTag your computer and make sure that the CircuitPython drive is mo
 
 Once everything saves the Magtag will soft reboot, connect to the Raspberry Pi API and display a progress bar with updated data.
 
+![Screenshot of the magtag drive](images/magtag_sidebyside.jpeg)
+
 Learn More
 =======
 
