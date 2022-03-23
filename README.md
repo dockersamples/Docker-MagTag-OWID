@@ -1,4 +1,4 @@
-Showcasing the OWID Vaccination Data with E-Ink, Docker, CircuitPython and IoT
+Tracking Global Vaccination rates with Docker, Python and IoT.
 =====
 
 Check out a full write up about this project on the [Docker Blog](Todo)
