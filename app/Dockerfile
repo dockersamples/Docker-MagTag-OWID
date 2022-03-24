@@ -1,5 +1,5 @@
 #Use the python 3 base image.
-FROM python:3
+FROM python:3-slim
 
 #Expose ports
 EXPOSE 5000
