@@ -8,7 +8,7 @@ Check out a full write up about this project on the [Docker Blog](Todo)
 What is this about?
 =====
 
-The folks at Our World in Data maintain a [Dataset about Covid-19](https://github.com/owid/covid-19-data). Out of personal curiosity I've been watching the [vaccination rates](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations) that they've been publishing over the last year. I've worked on project utilizing the [Adafruit Magtag](https://github.com/Shy/MagTag-Contentful-Courier) in the past and decided to repurpose them to watch the vaccination rates.
+The folks at Our World in Data maintain a [Dataset about Covid-19](https://github.com/owid/covid-19-data). Out of personal curiosity I've been watching the [vaccination rates](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations) that they've been publishing over the last year. I've worked on project utilizing the [Adafruit Magtag](https://www.adafruit.com/product/4819) in the [past and decided to repurpose them](https://github.com/Shy/MagTag-Contentful-Courier) to watch the vaccination rates.
 
 Unfortunately the JSON file provided by OWID is 34 MB while the MagTag itself only has 2 MB of PSRam. Utilizing Docker, I've created a flask server that parsers the data from OWID and formats it the minimal amount that the MagTag needs to render out it's progress bars. By using Docker I'm able to write the code on my Macbook, build it for the ARMv7 platform the Raspberry pi uses and then deploy it to a Pi that sits on my local network.
 
