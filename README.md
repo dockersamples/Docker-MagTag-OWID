@@ -1,7 +1,7 @@
 Tracking Global Vaccination rates with Docker, Python and IoT.
 =====
 
-Check out a full write up about this project on the [Docker Blog](Todo)
+Check out a full write up about this project on the [Docker Blog](https://www.docker.com/blog/tracking-global-vaccination-rates-with-docker-python-and-iot/)
 
 ![Photo of the Magtag displaying text from OWID](images/magtag_photo.jpg)
 
@@ -79,7 +79,7 @@ Once everything saves the Magtag will soft reboot, connect to the Raspberry Pi A
 Learn More
 =======
 
-Check out the full project write up on the [Docker Blog]().
+Check out the full project write up on the [Docker Blog](https://www.docker.com/blog/tracking-global-vaccination-rates-with-docker-python-and-iot/).
 
 Learn more about getting started with [Docker and Python](https://docs.docker.com/language/python/build-images/?utm_campaign=2022-03-25-magtag-owid-python-tutorial&utm_medium=web-referral&utm_source=github&utm_content=python-getting-started-docs)
 
